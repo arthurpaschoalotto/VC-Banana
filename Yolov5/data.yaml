@@ -1,0 +1,5 @@
+train: /home/arthur/Projetos/Ubivis/Data/Arquivo-Final/treino  # Caminho para o diretório que contém as imagens de treinamento
+val: /home/arthur/Projetos/Ubivis/Data/Arquivo-Final/validacao  # Caminho para o diretório que contém as imagens de validação
+# test:  # (Opcional) Caminho para o diretório que contém as imagens de teste
+nc: 1  # Número de classes. Se você está detectando bananas, deixe nc=1.
+names: ['banana']  # Nomes das classes (uma lista). Se houver mais classes, adicione-as a esta lista.

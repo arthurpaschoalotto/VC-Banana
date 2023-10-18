@@ -1,0 +1,1 @@
+python /home/arthur/Projetos/Ubivis/yolov5/train.py --img-size 640 --batch 16 --epochs 40 --data /home/arthur/Projetos/Ubivis/VC-Banana/Yolov5/data.yaml --cfg /home/arthur/Projetos/Ubivis/yolov5/models/yolov5m.yaml --weights yolov5m.pt
